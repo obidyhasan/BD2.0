@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh 2.0</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Poppins Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind config -->
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                clifford: '#da373d',
+                background: '#191718',
+                primary: '#fa8405'
+            },
+            fontFamily: {
+                poppins : 'Poppins',
+            }
+
+            }
+        }
+        }
+    </script>
+
+</head>
+<body class="font-poppins">
+    
+    <!-- Header Section -->
+    <header class="bg-background w-full min-h-screen text-white overflow-hidden">
+
+        <!-- Nav Section -->
+        <nav class="max-w-7xl mx-auto p-7 flex justify-between items-center">
+
+            <a class="flex items-center gap-2" href=""><img class="w-7" src="./images/logo.png" alt=""> <span class="text-2xl font-bold">BD2.0</span></a>
+
+            <menu class="hidden sm:block">
+                <ul class="flex items-center">
+                    <li class="mx-2"><a class="text-base font-medium hover:text-primary transition-all duration-300 ease-in text-gray-200 p-3" href="">Home</a></li>
+                    <li class="mx-2"><a class="text-base font-medium hover:text-primary transition-all duration-300 ease-in text-gray-200 p-3" href="">History</a></li>
+                    <li class="mx-2"><a class="text-base font-medium hover:text-primary transition-all duration-300 ease-in text-gray-200 p-3" href="">Contributors</a></li>
+                    <li class="mx-2"><a class="text-base font-medium text-black px-4 py-2 rounded-md bg-primary" href="">Donate</a></li>
+                </ul>
+            </menu>
+
+            <div class="sm:hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              </div>
+
+        </nav>
+
+
+        <!-- Hero Section -->
+        <section class="lg:flex max-w-7xl mx-auto px-7 lg:py-7 py-10 items-center gap-7">
+
+            <div class="lg:w-1/2">
+                <h1 class="font-bold text-2xl sm:text-5xl lg:text-[39px] xl:text-5xl xl:leading-tight lg:leading-tight sm:leading-tight leading-tight">Experience a journey of<br>a thousand miles with<br>just a single page</h1>
+                <p class="my-7 text-sm text-gray-200 max-w-md">Join Us Exploring The Most Exciting Adventures from The World You Have Ever Felt Before</p>
+                <div class="flex gap-5 mb-20">
+                    <button class="bg-primary text-black px-6 py-2 text-sm font-semibold rounded">Get Started</button>
+                    <button class="flex items-center gap-2 border px-4 py-2 text-sm font-semibold rounded" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+                      </svg> Learn More</button>
+                </div>
+
+                <div class="flex items-center gap-3  flex-wrap">
+                    <span class="text-sm">Contributors:</span>
+                    <div class="w-[1px] h-5 bg-white"></div>
+                    <div class="flex items-center gap-10 ml-1  brightness-50">
+                        <img class="w-6" src="./images/brand-01.png" alt="">
+                        <img class="w-6" src="./images/brand-02.png" alt="">
+                        <img class="w-6" src="./images/brand-03.png" alt="">
+                        <img class="w-6" src="./images/brand-04.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="lg:w-1/2 flex lg:justify-end justify-center ">
+                <img class="w-[65%] lg:mt-0 mt-8 xl:-mt-10" src="./images/bg-banner.png" alt="">
+            </div>
+
+        </section>
+
+    </header>
+
+</body>
+</html>
